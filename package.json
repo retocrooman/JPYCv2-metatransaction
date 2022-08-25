@@ -1,0 +1,27 @@
+{
+  "name": "jpycv2-metatransaction",
+  "version": "1.0.0",
+  "description": "jpycv2 metatransaction demo",
+  "main": "index.js",
+  "scripts": {
+    "EIP2612": "node scripts/EIP2612.js",
+    "EIP3009": "node scripts/EIP3009.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retocrooman/JPYCv2-metatransaction.git"
+  },
+  "author": "retocrooman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/retocrooman/JPYCv2-metatransaction/issues"
+  },
+  "homepage": "https://github.com/retocrooman/JPYCv2-metatransaction#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "eth-sig-util": "^3.0.1",
+    "ethereumjs-util": "^7.1.5",
+    "ethereumjs-wallet": "^1.0.2"
+  }
+}
