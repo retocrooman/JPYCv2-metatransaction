@@ -4,6 +4,7 @@ const name = 'JPY Coin';
 const version = '1';
 const value = '100000000000000000000';
 const nonce = 0;
+// const none = '0x0000000000000000000000000000000000000000000000000000000000000000';
 const deadline = '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff';
 const validAfter = 0;
 const validBefore = '0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff';
